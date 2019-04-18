@@ -54,7 +54,7 @@ def postImage(strBase64):
        CGI程序把处理结果传送给服务器
      """
     url = "https://xxxxxxxxxx"    # 大米识别服务器地址
-    # url = "https://ce2.midea.com/food-imgreg-test/as/"    # 杂粮识别服务器地址
+    # url = "https://xxxxxx"    # 杂粮识别服务器地址
 
     # Post请求携带参数
     body = {'data':strBase64, 'SN':"1111100000", 'UserTag':""}
