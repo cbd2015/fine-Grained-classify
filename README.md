@@ -18,3 +18,4 @@ fine-Grained classify 细颗粒度图像分类
 ### 3. 代码功能说明
     > enhanceImagePy 是图像预处理的，数据增强的方案； 包括：图像翻转、裁剪、局部均衡化、灰度化、压缩、椒盐噪声处理等
     > test.py 是用于测试的python入口文件
+    > post.py 是一种用于测试上线系统实际效果测试的post批量自动化请求并获取识别结果的一个python脚本；
