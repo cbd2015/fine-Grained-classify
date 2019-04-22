@@ -15,3 +15,6 @@ fine-Grained classify 细颗粒度图像分类
     > tensorflow_compact_bilinear_pooling.
     > VGG-or-MobileNet-SSD.
 
+### 3. 代码功能说明
+    > enhanceImagePy 是图像预处理的，数据增强的方案； 包括：图像翻转、裁剪、局部均衡化、灰度化、压缩、椒盐噪声处理等
+    > test.py 是用于测试的python入口文件
